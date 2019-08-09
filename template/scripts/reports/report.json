@@ -1,0 +1,1780 @@
+[
+    {
+        "title": "scan0",
+        "accepted": 15,
+        "assessed": 16,
+        "executionTime": 51,
+        "requirements": {
+            "background-color-is-set": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "All text must appear on top of a solid color",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "The default background color for most browsers is white but this value can be overridden, if a solid background color is not used, then the color that is used as default cannot be determined and may make the text unreadable",
+                "message": "The document has a solid background color",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "low",
+                "status": "fulfillment"
+            },
+            "buttons-have-accessible-names": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All buttons must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a button is encountered by the screen reader, either when reading a section of a page or when it is focussed, its label is read. If there is no label, it will be unclear what the button will do or where it will take the user.",
+                "message": "All buttons have accessible names",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This button's accessible name is \"Sign-In\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-19"
+                        },
+                        "selector": "#signInSubmit"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This button's accessible name is \"Get an OTP in your email\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-20"
+                        },
+                        "selector": "#continue"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "form-inputs-have-accessible-names": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All form inputs must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a form input is encountered by the screen reader, either when reading a section of a page or when it is focussed, its label is read. If there is no label, it will be unclear what the purpose of the input is.",
+                "message": "All form inputs have accessible names",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This input's accessible name is \"Password\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-21"
+                        },
+                        "selector": "#ap_password"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This input's accessible name is \"Keep me signed in. Details\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-22"
+                        },
+                        "selector": "input[type=\"checkbox\"]"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "form-inputs-have-visible-labels": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All form inputs must have visible labels",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Some users who encounter form input require explicit context to understand what an input needs, this may include users with cognitive impairments or any user who may have a reduced understanding due to cultural, language, or age differences. A label which is visible at all times is required, a placeholder or other labels which are not always present will cause confusion for some users.",
+                "message": "All form inputs have visible labels",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-a-visible-label": true
+                        },
+                        "description": "A label is visible",
+                        "detail": "This input's label is \"Password\" and is labelled by { label.a-form-label[for=\"ap_password\"] }",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-21"
+                        },
+                        "selector": "#ap_password"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-visible-label": true
+                        },
+                        "description": "A label is visible",
+                        "detail": "This input's label is \"Keep me signed in. Details\" and is labelled by { label.a-form-label[for=\"auth-remember-me\"] }",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-22"
+                        },
+                        "selector": "input[type=\"checkbox\"]"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "headings-have-accessible-names": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All headings must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Headings are used by screen reader users as navigational elements, if the heading is empty navigation becomes much more difficult.",
+                "message": "All headings have accessible names",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This heading's accessible name is \"Sign-In\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-1"
+                        },
+                        "selector": "h1"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This heading's accessible name is \"or\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-8"
+                        },
+                        "selector": "h5"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "image-has-accessible-name": {
+                "accepted": true,
+                "assessed": 1,
+                "description": "All images must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Images convey information to users, if users do not know the context of the images on a page they may miss important details.",
+                "message": "All images have accessible names",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This image's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-17"
+                        },
+                        "selector": "i.a-icon.a-icon-logo"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "image-has-user-friendly-accessible-name": {
+                "accepted": true,
+                "assessed": 1,
+                "description": "All images must have useful accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Images convey information to users, if an image description is too long, does not contain relevant information, or contains redundant information, a screen reader user may find the experience frustrating or miss out on vital details.",
+                "message": "All images have useful accessible names",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name-that-is-not-a-filename": true,
+                            "has-an-accessible-name-that-is-not-redundant": true,
+                            "has-an-accessible-name-that-is-not-too-long": true
+                        },
+                        "description": "Accessible name is not redundant",
+                        "detail": "This image's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-17"
+                        },
+                        "selector": "i.a-icon.a-icon-logo"
+                    }
+                ],
+                "severity": "medium",
+                "status": "fulfillment"
+            },
+            "links-have-accessible-name": {
+                "accepted": true,
+                "assessed": 7,
+                "description": "All links must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a link is encountered by the screen reader, either when reading a section of a page or when it is focussed, its label is read. If there is no label, it will be unclear what the link will do or where it will take the user.",
+                "message": "All links have accessible names",
+                "passed": 7,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-18"
+                        },
+                        "selector": "a.a-link-nav-icon"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Change\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Forgot your password?\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Details\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Conditions of Use\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Privacy Notice\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Help\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "links-have-user-friendly-accessible-name": {
+                "accepted": true,
+                "assessed": 7,
+                "description": "All links must have useful accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a link is encountered by the screen reader when it is focussed, its label is read. If the label does not make sense outside of the context that it is in, it will become difficult for users to understand what it does or where it will take them.",
+                "message": "All links have useful accessible names",
+                "passed": 7,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-18"
+                        },
+                        "selector": "a.a-link-nav-icon"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Change\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Forgot your password?\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Details\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Conditions of Use\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Privacy Notice\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Help\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    }
+                ],
+                "severity": "medium",
+                "status": "fulfillment"
+            },
+            "list-structure-accessible": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "All list containers and list items in those containers must have valid markup",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Assistive technology users can better navigate pages where lists are marked up appropriately",
+                "message": "Satisfactory markup found for all list elements",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "low",
+                "status": "fulfillment"
+            },
+            "minimum-contrast": {
+                "accepted": true,
+                "assessed": 16,
+                "description": "All text must have a minimum contrast ratio between the text color and the underlying background color",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Customers who have low vision may not be able to see the text. If they can see it, they may struggle to read it.",
+                "message": "Minimum contrast met for all nodes",
+                "passed": 16,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-1"
+                        },
+                        "selector": "h1"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-2"
+                        },
+                        "selector": ".a-row.a-spacing-base span"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.735:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-4"
+                        },
+                        "selector": "label.a-form-label[for=\"ap_password\"]"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.735:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-6"
+                        },
+                        "selector": "span.a-label"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.735:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 4.542:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-8"
+                        },
+                        "selector": "h5"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 7.455:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-9"
+                        },
+                        "selector": "span.a-size-mini"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-10"
+                        },
+                        "selector": "span.a-declarative"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 13.476:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-11"
+                        },
+                        "selector": "#auth-signin-button-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-12"
+                        },
+                        "selector": "label.a-form-label[for=\"auth-remember-me\"]"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 17.126:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-13"
+                        },
+                        "selector": "#auth-login-via-otp-btn-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.59:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.59:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.59:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "minimum-text-size": {
+                "accepted": false,
+                "assessed": 16,
+                "description": "All text that appears on-screen must have a minimum font-size of >=16px",
+                "experimental": true,
+                "failed": 15,
+                "failedAssessments": [
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-2"
+                        },
+                        "selector": ".a-row.a-spacing-base span"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-4"
+                        },
+                        "selector": "label.a-form-label[for=\"ap_password\"]"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-11"
+                        },
+                        "selector": "#auth-signin-button-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-6"
+                        },
+                        "selector": "span.a-label"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 12px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-8"
+                        },
+                        "selector": "h5"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-13"
+                        },
+                        "selector": "#auth-login-via-otp-btn-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-9"
+                        },
+                        "selector": "span.a-size-mini"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-10"
+                        },
+                        "selector": "span.a-declarative"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-12"
+                        },
+                        "selector": "label.a-form-label[for=\"auth-remember-me\"]"
+                    }
+                ],
+                "impact": "Customers who have low vision may not know how to increase their text size manually",
+                "message": "15 elements do not meet the minimum text size of 16px",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": true
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 28px",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-1"
+                        },
+                        "selector": "h1"
+                    }
+                ],
+                "severity": "low",
+                "status": "failure"
+            },
+            "no-keyboard-trap": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "Web pages should not contain keyboard traps",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Keyboard traps prevent users who cannot use a mouse from navigating away from an interactive component which make it impossible for the user to access all parts of the page.",
+                "message": "Not assessed",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "high",
+                "status": "unassessed"
+            },
+            "no-missing-header-markup": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "Elements that qualify stylistically as headings should be marked up as heading elements",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Assistive technology users can better navigate pages where headings are used appropriately",
+                "message": "Satisfactory heading markup found for all applicable page elements",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "low",
+                "status": "fulfillment"
+            },
+            "title-exists": {
+                "accepted": true,
+                "assessed": 1,
+                "description": "An HTML document requires a title",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "The document title helps users to orient themselves within the site quickly without having to search for orientation information in the body of the page.",
+                "message": "The document has a title",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-document-title": true
+                        },
+                        "description": "Document title is present",
+                        "detail": "The document title is \"Amazon Sign-In\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-23"
+                        },
+                        "selector": "html"
+                    }
+                ],
+                "severity": "medium",
+                "status": "fulfillment"
+            },
+            "videos-have-captions": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "All videos with audio tracks must have caption tracks",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When individuals who have hearing impairments or simply are in a situation where they cannot use audio, videos without captions will not be understood and important information may be lost.",
+                "message": "There are no videos present on the page",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "high",
+                "status": "fulfillment"
+            }
+        },
+        "unaccepted": 1
+    },
+    {
+        "title": "scan1",
+        "accepted": 15,
+        "assessed": 16,
+        "executionTime": 51,
+        "requirements": {
+            "background-color-is-set": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "All text must appear on top of a solid color",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "The default background color for most browsers is white but this value can be overridden, if a solid background color is not used, then the color that is used as default cannot be determined and may make the text unreadable",
+                "message": "The document has a solid background color",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "low",
+                "status": "fulfillment"
+            },
+            "buttons-have-accessible-names": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All buttons must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a button is encountered by the screen reader, either when reading a section of a page or when it is focussed, its label is read. If there is no label, it will be unclear what the button will do or where it will take the user.",
+                "message": "All buttons have accessible names",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This button's accessible name is \"Sign-In\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-19"
+                        },
+                        "selector": "#signInSubmit"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This button's accessible name is \"Get an OTP in your email\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-20"
+                        },
+                        "selector": "#continue"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "form-inputs-have-accessible-names": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All form inputs must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a form input is encountered by the screen reader, either when reading a section of a page or when it is focussed, its label is read. If there is no label, it will be unclear what the purpose of the input is.",
+                "message": "All form inputs have accessible names",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This input's accessible name is \"Password\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-21"
+                        },
+                        "selector": "#ap_password"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This input's accessible name is \"Keep me signed in. Details\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-22"
+                        },
+                        "selector": "input[type=\"checkbox\"]"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "form-inputs-have-visible-labels": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All form inputs must have visible labels",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Some users who encounter form input require explicit context to understand what an input needs, this may include users with cognitive impairments or any user who may have a reduced understanding due to cultural, language, or age differences. A label which is visible at all times is required, a placeholder or other labels which are not always present will cause confusion for some users.",
+                "message": "All form inputs have visible labels",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-a-visible-label": true
+                        },
+                        "description": "A label is visible",
+                        "detail": "This input's label is \"Password\" and is labelled by { label.a-form-label[for=\"ap_password\"] }",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-21"
+                        },
+                        "selector": "#ap_password"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-visible-label": true
+                        },
+                        "description": "A label is visible",
+                        "detail": "This input's label is \"Keep me signed in. Details\" and is labelled by { label.a-form-label[for=\"auth-remember-me\"] }",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-22"
+                        },
+                        "selector": "input[type=\"checkbox\"]"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "headings-have-accessible-names": {
+                "accepted": true,
+                "assessed": 2,
+                "description": "All headings must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Headings are used by screen reader users as navigational elements, if the heading is empty navigation becomes much more difficult.",
+                "message": "All headings have accessible names",
+                "passed": 2,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This heading's accessible name is \"Sign-In\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-1"
+                        },
+                        "selector": "h1"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This heading's accessible name is \"or\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-8"
+                        },
+                        "selector": "h5"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "image-has-accessible-name": {
+                "accepted": true,
+                "assessed": 1,
+                "description": "All images must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Images convey information to users, if users do not know the context of the images on a page they may miss important details.",
+                "message": "All images have accessible names",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This image's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-17"
+                        },
+                        "selector": "i.a-icon.a-icon-logo"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "image-has-user-friendly-accessible-name": {
+                "accepted": true,
+                "assessed": 1,
+                "description": "All images must have useful accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Images convey information to users, if an image description is too long, does not contain relevant information, or contains redundant information, a screen reader user may find the experience frustrating or miss out on vital details.",
+                "message": "All images have useful accessible names",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name-that-is-not-a-filename": true,
+                            "has-an-accessible-name-that-is-not-redundant": true,
+                            "has-an-accessible-name-that-is-not-too-long": true
+                        },
+                        "description": "Accessible name is not redundant",
+                        "detail": "This image's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-17"
+                        },
+                        "selector": "i.a-icon.a-icon-logo"
+                    }
+                ],
+                "severity": "medium",
+                "status": "fulfillment"
+            },
+            "links-have-accessible-name": {
+                "accepted": true,
+                "assessed": 7,
+                "description": "All links must have accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a link is encountered by the screen reader, either when reading a section of a page or when it is focussed, its label is read. If there is no label, it will be unclear what the link will do or where it will take the user.",
+                "message": "All links have accessible names",
+                "passed": 7,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-18"
+                        },
+                        "selector": "a.a-link-nav-icon"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Change\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Forgot your password?\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Details\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Conditions of Use\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Privacy Notice\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "has-an-accessible-name": true
+                        },
+                        "description": "Accessible name is present",
+                        "detail": "This link's accessible name is \"Help\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "links-have-user-friendly-accessible-name": {
+                "accepted": true,
+                "assessed": 7,
+                "description": "All links must have useful accessible names",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When a link is encountered by the screen reader when it is focussed, its label is read. If the label does not make sense outside of the context that it is in, it will become difficult for users to understand what it does or where it will take them.",
+                "message": "All links have useful accessible names",
+                "passed": 7,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Amazon\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-18"
+                        },
+                        "selector": "a.a-link-nav-icon"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Change\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Forgot your password?\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Details\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Conditions of Use\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Privacy Notice\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "has-a-user-friendly-accessible-name": true
+                        },
+                        "description": "Accessible name provides sufficient context",
+                        "detail": "This link's accessible name is \"Help\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    }
+                ],
+                "severity": "medium",
+                "status": "fulfillment"
+            },
+            "list-structure-accessible": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "All list containers and list items in those containers must have valid markup",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Assistive technology users can better navigate pages where lists are marked up appropriately",
+                "message": "Satisfactory markup found for all list elements",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "low",
+                "status": "fulfillment"
+            },
+            "minimum-contrast": {
+                "accepted": true,
+                "assessed": 16,
+                "description": "All text must have a minimum contrast ratio between the text color and the underlying background color",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Customers who have low vision may not be able to see the text. If they can see it, they may struggle to read it.",
+                "message": "Minimum contrast met for all nodes",
+                "passed": 16,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-1"
+                        },
+                        "selector": "h1"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-2"
+                        },
+                        "selector": ".a-row.a-spacing-base span"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.735:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-4"
+                        },
+                        "selector": "label.a-form-label[for=\"ap_password\"]"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.735:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-6"
+                        },
+                        "selector": "span.a-label"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.735:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 4.542:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-8"
+                        },
+                        "selector": "h5"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 7.455:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-9"
+                        },
+                        "selector": "span.a-size-mini"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-10"
+                        },
+                        "selector": "span.a-declarative"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 13.476:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-11"
+                        },
+                        "selector": "#auth-signin-button-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 18.883:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-12"
+                        },
+                        "selector": "label.a-form-label[for=\"auth-remember-me\"]"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 17.126:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-13"
+                        },
+                        "selector": "#auth-login-via-otp-btn-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.59:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.59:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-contrast": true
+                        },
+                        "description": "Minimum contrast is met",
+                        "detail": "This node has a contrast ratio of 5.59:1",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    }
+                ],
+                "severity": "high",
+                "status": "fulfillment"
+            },
+            "minimum-text-size": {
+                "accepted": false,
+                "assessed": 16,
+                "description": "All text that appears on-screen must have a minimum font-size of >=16px",
+                "experimental": true,
+                "failed": 15,
+                "failedAssessments": [
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-2"
+                        },
+                        "selector": ".a-row.a-spacing-base span"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-3"
+                        },
+                        "selector": "#ap_change_login_claim"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-4"
+                        },
+                        "selector": "label.a-form-label[for=\"ap_password\"]"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-5"
+                        },
+                        "selector": "#auth-fpp-link-bottom"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-11"
+                        },
+                        "selector": "#auth-signin-button-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-6"
+                        },
+                        "selector": "span.a-label"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-7"
+                        },
+                        "selector": "#remember_me_learn_more_link"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 12px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-8"
+                        },
+                        "selector": "h5"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-13"
+                        },
+                        "selector": "#auth-login-via-otp-btn-announce"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-14"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(2)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-15"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(4)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-16"
+                        },
+                        "selector": "#a-page>div.a-section.a-padding-medium.auth-workflow:nth-child(2)>div.a-section.a-spacing-top-extra-large.auth-footer:last-child>div.a-section.a-spacing-small.a-text-center.a-size-mini:nth-child(2)>a.a-link-normal[rel=\"noopener\"]:nth-child(6)"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 11px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-9"
+                        },
+                        "selector": "span.a-size-mini"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-10"
+                        },
+                        "selector": "span.a-declarative"
+                    },
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": false
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 13px",
+                        "fix": "Increase this element's font size to be greater than or equal to 16 CSS 'px' units",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-12"
+                        },
+                        "selector": "label.a-form-label[for=\"auth-remember-me\"]"
+                    }
+                ],
+                "impact": "Customers who have low vision may not know how to increase their text size manually",
+                "message": "15 elements do not meet the minimum text size of 16px",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "meets-minimum-text-size": true
+                        },
+                        "description": "Minimum text size is met",
+                        "detail": "This element's font size is 28px",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-1"
+                        },
+                        "selector": "h1"
+                    }
+                ],
+                "severity": "low",
+                "status": "failure"
+            },
+            "no-keyboard-trap": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "Web pages should not contain keyboard traps",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Keyboard traps prevent users who cannot use a mouse from navigating away from an interactive component which make it impossible for the user to access all parts of the page.",
+                "message": "Not assessed",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "high",
+                "status": "unassessed"
+            },
+            "no-missing-header-markup": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "Elements that qualify stylistically as headings should be marked up as heading elements",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "Assistive technology users can better navigate pages where headings are used appropriately",
+                "message": "Satisfactory heading markup found for all applicable page elements",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "low",
+                "status": "fulfillment"
+            },
+            "title-exists": {
+                "accepted": true,
+                "assessed": 1,
+                "description": "An HTML document requires a title",
+                "experimental": false,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "The document title helps users to orient themselves within the site quickly without having to search for orientation information in the body of the page.",
+                "message": "The document has a title",
+                "passed": 1,
+                "passedAssessments": [
+                    {
+                        "assessments": {
+                            "has-document-title": true
+                        },
+                        "description": "Document title is present",
+                        "detail": "The document title is \"Amazon Sign-In\"",
+                        "node": {
+                            "ELEMENT": "0.05025049312500762-23"
+                        },
+                        "selector": "html"
+                    }
+                ],
+                "severity": "medium",
+                "status": "fulfillment"
+            },
+            "videos-have-captions": {
+                "accepted": true,
+                "assessed": 0,
+                "description": "All videos with audio tracks must have caption tracks",
+                "experimental": true,
+                "failed": 0,
+                "failedAssessments": [],
+                "impact": "When individuals who have hearing impairments or simply are in a situation where they cannot use audio, videos without captions will not be understood and important information may be lost.",
+                "message": "There are no videos present on the page",
+                "passed": 0,
+                "passedAssessments": [],
+                "severity": "high",
+                "status": "fulfillment"
+            }
+        },
+        "unaccepted": 1
+    }
+]

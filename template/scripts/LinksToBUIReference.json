@@ -1,0 +1,7 @@
+
+{
+    "check-box": "https://bui.corp.amazon.com/components/#/checkbox",
+    "layout-container": "https://bui.corp.amazon.com/layouts-api/base-layout",
+    "radio": "https://bui.corp.amazon.com/components/#/radio-button",
+    "style-exists": "https://bui.corp.amazon.com/styles/typography"
+}

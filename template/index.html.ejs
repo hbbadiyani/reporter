@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title><%= title %></title>
+    <link
+        href="https://amazonui-upload.amazon.com/manifest/AmazonUIManifest/latest.css?name=AmazonUI&variant[debug]=true&extension=.css"
+        rel="stylesheet" type="text/css" />
+    <link href="https://m.media-amazon.com/images/G/01/BUI/BusinessAccountsVendorAssets/latest.css" rel="stylesheet"
+        type="text/css" />
+    <script
+        src="https://amazonui-upload.amazon.com/manifest/AmazonUIManifest/latest.js?name=AmazonUIPageJS&variant[debug]=true&extension=.js"></script>
+    <script>P.load.js('https://amazonui-upload.amazon.com/manifest/AmazonUIManifest/latest.js?name=AmazonUI&variant[debug]=true');</script>
+    <script src="https://m.media-amazon.com/images/G/01/BUI/BusinessAccountsVendorAssets/latest.js"></script>
+    <script>
+        var testResults = <%- JSON.stringify(testResults) %>;
+        var a11yResults = <%- JSON.stringify(a11yResults) %>;
+    </script>
+</head>
+
+<body>
+    <div id="bui-root" class="b-layout">
+        <main class="b-container">
+            Loading ...
+        </main>
+    </div>
+    <script src="./scripts/main.js"> </script>
+</body>
+</script>
